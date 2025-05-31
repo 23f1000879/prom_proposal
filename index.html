@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Prom Date?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="mainPage">
+        <h1>Will You Be My Prom Date? 🌹</h1>
+
+        <div class="buttons">
+            <button class="yes-btn" onclick="yesClicked()">Yes</button>
+            <button class="no-btn" id="noBtn">No</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="yesPage">
+        <h1>Yayyyy! I knew you will never say no to meee! 🎉💖</h1>
+
+        <p>You've made me the happiest person!</p>
+    </div>
+
+    <div class="container hidden" id="pleasePages">
+        <h1 id="pleaseMessage">Pleaseee! 🥺</h1>
+
+        <div class="buttons">
+            <button class="yes-btn" onclick="yesClicked()">Yes</button>
+            <button class="no-btn" id="noBtnPlease">No</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
