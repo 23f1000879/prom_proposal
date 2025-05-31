@@ -7,9 +7,9 @@ const pleaseMessage = document.getElementById('pleaseMessage');
 
 let clickCount = 0;
 const messages = [
-    "Pleaseee! 🥺",
-    "Pleaseee pleaseee! I am your baby naa! 🥺💕",
-    "Last chance... Only Yes remains! 🥺💝"
+    "Pleaseee naaa taanuuu! 🥺",
+    "Pleaseee pleaseee taaanuuu! I am your baby naa! 🥺💕",
+    "Last chance... or i will bee saddd! 🥺💝"
 ];
 
 function moveButton(button) {
